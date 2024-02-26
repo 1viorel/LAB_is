@@ -13,5 +13,9 @@ public class Main {
         else if(Objects.equals(opt, "afisare"))
             Ajutor.afisare();
 
+        Tester test;
+        int result = Tester.getRng(5);
+
+
     }
 }
