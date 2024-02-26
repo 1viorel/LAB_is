@@ -2,7 +2,7 @@ import java.io.Console;
 
 public class Ajutor{
     static void afisare() {
-        System.out.println("Salut lume");
+        System.out.println("o");
     }
     static void info() {
         System.out.println("Proiect: git stuff");
