@@ -1,8 +1,17 @@
+import java.util.Objects;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Optiunea?");
+        String opt = scanner.nextLine();
 
-        Ajutor a;
-        Ajutor.afisare();
+        if (Objects.equals(opt, "info"))
+            Ajutor.info();
+        else if(Objects.equals(opt, "afisare"))
+            Ajutor.afisare();
+
     }
 }
